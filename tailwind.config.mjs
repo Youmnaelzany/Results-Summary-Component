@@ -26,16 +26,13 @@ module.exports = {
         'Light-lavender': 'hsl(241, 100%, 89%)',
         'Dark-gray-blue': 'hsl(224, 30%, 27%)',
         'Light-blue': '#CAC9FF',
-        'Dark Navy': '#303B59',
+        'Dark-Navy': '#303B59',
         'Light-red': '#FF5555',
         'Orangey-yellow': '#FFB21E',
         'Green-teal': '#00BB8F',
         'Cobalt-blue': '#1125D6',
-
-
-
-
-
+        'red-opacity': '',
+        'yellow-opacity': '',
         borderRadius: {
         },
         keyframes: {

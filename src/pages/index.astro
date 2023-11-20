@@ -15,63 +15,95 @@ import { Button } from "@/components/ui/button";
     <meta name="generator" content={Astro.generator} />
     <title>Frontend Mentor | Results summary component</title>
   </head>
-  <body class="bg-light-blue">
-    <main class="flex justify-center w-4/5 m-auto p-40">
-      <section>
-        <div>
-          <h1 class="text-Light-blue font-bold text-2xl">Your Result</h1>
+  <body class="">
+    <main class="flex justify-center w-4/5 m-auto p-28">
+      <section
+        class="bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue rounded-3xl"
+      >
+        <div
+          class="flex flex-col justify-between w-96 h-[32rem] p-12 text-center"
+        >
           <div>
-            <h2 class="font-extrabold">76</h2>
-            <h3>of 100</h3>
+            <h1 class="text-Light-blue font-bold
+            text-2xl">
+              Your Result
+            </h1>
           </div>
-          <h2>Great</h2>
-          <p>
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
+          <div
+            class="w-48 h-48 bg-gradient-to-b from-Violet-blue to-Persian-blue rounded-full flex flex-col justify-center self-center"
+          >
+            <h2 class="font-extrabold text-7xl text-white">76</h2>
+            <h3 class="text-lg font-bold text-Light-blue">of 100</h3>
+          </div>
+          <div class="self-center">
+            <h2 class="font-bold text-3xl text-white">Great</h2>
+            <p class="font-medium text-lg text-Light-blue mt-5 w-64">
+              You scored higher than 65% of the people who have taken these
+              tests!
+            </p>
+          </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Summary</h2>
+      <section class="bg-White">
+        <div
+          class="w-96 h-[32rem] flex flex-col justify-between p-12 rounded-3xl"
+        >
           <div>
-            <div>
-              <div>
-                <img src="/images/icon-reaction.svg" alt="" />
-                <h3>Reaction</h3>
+            <h2 class="font-bold text-lg text-Dark-Navy">Summary</h2>
+          </div>
+          <div class="flex flex-col gap-4 justify-center">
+            <div class="flex justify-between p-4 rounded-md box-one">
+              <div class="flex gap-3">
+                <img
+                  class="self-center"
+                  src="/images/icon-reaction.svg"
+                  alt=""
+                />
+                <h3 class="text-lg font-medium text-Light-red">Reaction</h3>
               </div>
               <div>
-                <p>80 <span>/ 100</span></p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="/images/icon-memory.svg" alt="" />
-                <h3>Memory</h3>
-              </div>
-              <div>
-                <p>92 <span>/ 100</span></p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="/images/icon-verbal.svg" alt="" />
-                <h3>Verbal</h3>
-              </div>
-              <div>
-                <p>61 <span>/ 100</span></p>
+                <p class="text-lg font-bold text-Dark-Navy">
+                  80 <span class="opacity-50">/ 100</span>
+                </p>
               </div>
             </div>
-            <div>
-              <div>
-                <img src="/images/icon-visual.svg" alt="" />
-                <h3>Visual</h3>
+            <div class="flex justify-between p-4 rounded-md box-two">
+              <div class="flex gap-3">
+                <img class="self-center" src="/images/icon-memory.svg" alt="" />
+                <h3 class="text-lg font-medium text-Orangey-yellow">Memory</h3>
               </div>
               <div>
-                <p>72 <span>/ 100</span></p>
+                <p class="text-lg font-bold text-Dark-Navy">
+                  92 <span class="opacity-50">/ 100</span>
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between p-4 rounded-md box-three">
+              <div class="flex gap-3">
+                <img class="self-center" src="/images/icon-verbal.svg" alt="" />
+                <h3 class="text-lg font-medium text-Green-teal">Verbal</h3>
+              </div>
+              <div>
+                <p class="text-lg font-bold text-Dark-Navy">
+                  61 <span class="opacity-50">/ 100</span>
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between p-4 rounded-md box-four">
+              <div class="flex gap-3">
+                <img class="self-center" src="/images/icon-visual.svg" alt="" />
+                <h3 class="text-lg font-medium text-Cobalt-blue">Visual</h3>
+              </div>
+              <div>
+                <p class="text-lg font-bold text-Dark-Navy">
+                  72 <span class="opacity-50">/ 100</span>
+                </p>
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="self-center bg-Dark-Navy w-72 text-center text-White rounded-3xl text-lg font-bold h-13"
+          >
             <Button>Continue</Button>
           </div>
         </div>

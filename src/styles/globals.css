@@ -7,18 +7,36 @@
   font-weight: 500;
   src: url("../../public/fonts/static/HankenGrotesk-Medium.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Hanken Grotesk";
   font-weight: 500;
   src: url("../../public/fonts/static/HankenGrotesk-Bold.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Hanken Grotesk";
   font-weight: 500;
-  src: url("../../public/fonts/static/HankenGrotesk-ExtraBold.ttf")
-    format("ttf");
+  src: url("../../public/fonts/static/HankenGrotesk-ExtraBold.ttf") format("ttf");
 }
 
 body {
   font-family: "Hanken Grotesk", sans-serif;
+  background: #ECF2FF;
+}
+
+.box-one {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+}
+
+.box-two {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+}
+
+.box-three {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+}
+
+.box-four {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
 }
